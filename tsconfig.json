@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
@@ -8,10 +10,10 @@
 
     /* פתרון לשגיאות האדומות */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    
 
     /* תאימות לספריות חיצוניות */
     "esModuleInterop": true,
@@ -22,6 +24,6 @@
     "noImplicitAny": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["**/*.ts"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
 }
